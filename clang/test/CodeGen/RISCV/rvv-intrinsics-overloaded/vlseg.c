@@ -6487,3 +6487,4 @@ void test_vlseg2e64_v_f64m4_m (vfloat64m4_t *v0, vfloat64m4_t *v1, vbool16_t mas
   return vlseg2e64(v0, v1, mask, maskedoff0, maskedoff1, base, vl);
 }
 // this is real commit
+
