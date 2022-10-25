@@ -6486,3 +6486,4 @@ void test_vlseg4e64_v_f64m2_m (vfloat64m2_t *v0, vfloat64m2_t *v1, vfloat64m2_t 
 void test_vlseg2e64_v_f64m4_m (vfloat64m4_t *v0, vfloat64m4_t *v1, vbool16_t mask, vfloat64m4_t maskedoff0, vfloat64m4_t maskedoff1, const double *base, size_t vl) {
   return vlseg2e64(v0, v1, mask, maskedoff0, maskedoff1, base, vl);
 }
+// commit ammend rvv test case
